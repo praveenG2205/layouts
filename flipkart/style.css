@@ -26,9 +26,12 @@ header{
      display: flex;
      width: 100%;
      align-items: center;
-     padding: 2px 1px;
+     padding: 5px 10px;
      border:none;
+
 }
+
+
 
 .box{
     display: flex;
@@ -36,7 +39,6 @@ header{
     justify-content: center;
     align-items: center;
     margin:2px;
-
  flex-wrap: wrap;
     width:100%;
 }
@@ -69,12 +71,19 @@ img{
 
 }
 .bar:hover {
-  color: #27c6df8c;
+  color: #ffffff;
   background-color:#9e9e9e;
   border-radius:4px;
 }
 
-@media only screen and (max-width: 600px) {
-
-
+.sidebar-img{
+     width:35px;
+     display:flex;
 }
+p{
+    margin:10px;
+}
+.facebook:hover {
+    opacity: 0.7;
+}
+
